@@ -1,20 +1,36 @@
 {
   "name": "ngQuiz",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Angular Turtle App",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "ng build --aot -prod"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chareesa/Angular-Turtle-App.git"
+    "url": "https://github.com/Chareesa/Angular-Turtle-App.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Chareesa Graham",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Chareesa/Angular-Turtle-App/issues"
   },
-  "homepage": "https://github.com/Chareesa/Angular-Turtle-App#readme"
+  "homepage": "https://github.com/Chareesa/Angular-Turtle-App",
+  "dependencies": {
+    "@angular/cli": "^1.6.0",
+    "@angular/compiler-cli": "^5.1.0",
+    "express": "^4.16.2",
+    "typescript": "~2.3.3"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.0",
+    "@angular/compiler-cli": "^5.1.0",
+    "enhanced-resolve": "^3.3.0",
+    "typescript": "~2.3.3"
+  },
+  "engines": {
+    "node": "8.9.3",
+    "npm": "5.6.0"
+  }
 }
